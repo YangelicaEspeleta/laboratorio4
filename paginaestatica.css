@@ -1,0 +1,71 @@
+/* Estilos generales */
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h2{
+    color: blue;
+}
+
+/* estilos para las listas */
+
+ul, ol{
+
+    padding-left: 20px;
+}
+table{
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background: pink;
+}
+
+/* estilos para el formulario */
+
+form{
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid beige;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}
+
+table{
+    font-weight: bold;
+}
+
+input, textarea, button{
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      font-size: 1rem;
+      border-radius: 5px;
+
+}
+
+button{
+    background-color: rgb(248, 203, 213);
+    color:black ;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
